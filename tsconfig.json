@@ -1,5 +1,8 @@
 {
-  "include": ["packages", "apps"],
+  "include": [
+    "packages",
+    "apps"
+  ],
   "compilerOptions": {
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -14,8 +17,13 @@
     "noImplicitOverride": true,
     "module": "preserve",
     "noEmit": true,
-    "lib": ["es2022", "dom", "dom.iterable"],
+    "lib": [
+      "es2022",
+      "dom",
+      "dom.iterable"
+    ],
     "baseUrl": ".",
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "paths": {}
   }
 }

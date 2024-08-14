@@ -1,0 +1,24 @@
+{
+  "name": "@namui-kit/react-behavior-hooks",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Viet Nam Nguyen",
+  "homepage": "https://github.com/namvnngu/namui-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/namvnngu/namui-kit",
+    "directory": "packages/react/behavior-hooks"
+  },
+  "bugs": {
+    "url": "https://github.com/namvnngu/namui-kit/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  }
+}

@@ -4,9 +4,10 @@
   "license": "MIT",
   "author": "Viet Nam Nguyen",
   "homepage": "https://github.com/namvnngu/namui-kit",
+  "type": "module",
   "repository": {
     "type": "git",
-    "url": "https://github.com/namvnngu/namui-kit.git"
+    "url": "https://github.com/namvnngu/namui-kit"
   },
   "bugs": {
     "url": "https://github.com/namvnngu/namui-kit/issues"
@@ -14,7 +15,8 @@
   "scripts": {
     "lint": "eslint .",
     "types:check": "tsc --skipLibCheck --noEmit",
-    "format": "prettier --write **/*.{js,ts,jsx,tsx}"
+    "format": "prettier --write **/*.{js,ts,jsx,tsx}",
+    "dev": "pnpm -r --parallel run dev"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
