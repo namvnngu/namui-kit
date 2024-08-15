@@ -1,16 +1,16 @@
 {
-  "name": "@namui-kit/react-utility-hooks",
+  "name": "@namui/react-utility-hooks",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Viet Nam Nguyen",
-  "homepage": "https://github.com/namvnngu/namui-kit",
+  "homepage": "https://github.com/namvnngu/namui",
   "repository": {
     "type": "git",
-    "url": "https://github.com/namvnngu/namui-kit",
+    "url": "https://github.com/namvnngu/namui",
     "directory": "packages/react/utility-hooks"
   },
   "bugs": {
-    "url": "https://github.com/namvnngu/namui-kit/issues"
+    "url": "https://github.com/namvnngu/namui/issues"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
