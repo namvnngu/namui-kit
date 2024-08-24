@@ -1,8 +1,8 @@
-storybook_dir="./apps/$1-storybook"
+target="./packages/$1"
 
-if [[ ! -d $storybook_dir ]] ; then
-  echo "$storybook_dir: No such storybook directory"
+if [[ ! -d $target ]] ; then
+  echo "$target: No such directory"
   exit 1
 fi
 
-pnpm --filter $storybook_dir storybook
+pnpm --filter $target storybook

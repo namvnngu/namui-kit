@@ -4,7 +4,6 @@
   "license": "MIT",
   "author": "Viet Nam Nguyen",
   "homepage": "https://github.com/namvnngu/namui",
-  "source": "./src/index.tsx",
   "main": "./src/index.tsx",
   "repository": {
     "type": "git",
