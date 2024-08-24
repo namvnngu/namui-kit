@@ -42,7 +42,7 @@ importers:
         specifier: ^8.1.0
         version: 8.2.0(eslint@9.9.1)(typescript@5.5.4)
 
-  examples/react-playground:
+  examples/react:
     dependencies:
       '@namui/react/components/button':
         specifier: workspace:*
