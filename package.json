@@ -13,7 +13,7 @@
     "url": "https://github.com/namvnngu/namui/issues"
   },
   "scripts": {
-    "clean": "./scripts/cleanup.sh",
+    "clean": "./scripts/clean.sh",
     "dev": "pnpm -r --parallel run dev",
     "format": "prettier --write **/*.{js,ts,jsx,tsx}",
     "lint": "eslint .",
