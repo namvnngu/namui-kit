@@ -2,9 +2,9 @@
   "name": "@namui/react",
   "version": "0.0.1",
   "license": "MIT",
-  "main": ".",
   "author": "Viet Nam Nguyen",
   "homepage": "https://github.com/namvnngu/namui",
+  "main": ".",
   "repository": {
     "type": "git",
     "url": "https://github.com/namvnngu/namui",
