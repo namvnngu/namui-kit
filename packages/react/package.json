@@ -1,18 +1,4 @@
 {
-  "name": "@namui/react",
-  "version": "0.0.1",
-  "license": "MIT",
-  "author": "Viet Nam Nguyen",
-  "homepage": "https://github.com/namvnngu/namui",
-  "main": ".",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/namvnngu/namui",
-    "directory": "packages/react"
-  },
-  "bugs": {
-    "url": "https://github.com/namvnngu/namui/issues"
-  },
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -24,7 +10,7 @@
     "react-dom": "catalog:"
   },
   "devDependencies": {
-    "@chromatic-com/storybook": "^1.7.0",
+    "@chromatic-com/storybook": "^1.9.0",
     "@storybook/addon-essentials": "^8.2.9",
     "@storybook/addon-interactions": "^8.2.9",
     "@storybook/addon-links": "^8.2.9",
